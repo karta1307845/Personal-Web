@@ -1,0 +1,36 @@
+﻿<h1>快來寫下你對我的悄悄話吧~</h1>
+<br>
+<br>
+  <form action="" style="position: relative;bottom: 30px;">
+    <div class="form-group">
+  	<label for="comment">我想對你說 :</label>
+  	<textarea class="form-control" rows="5" id="comment" style="resize:none" placeholder="什麼都可以說喔~~~"></textarea>
+    </div>
+    <div id="msg" class="alert alert-danger" style="display:none">
+    <strong>你沒輸入任何東西喔!</strong>
+    </div>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" onclick="enableBtn()">送出</button>
+    <button type="button" class="btn btn-primary" onclick="clearText()">清除</button>
+
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+ 
+        <div class="modal-header">
+          <h4 class="modal-title">提示</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <div class="modal-body">
+		確定送出嗎?
+        </div>
+        
+        <div class="modal-footer">
+	  <button id="confirmBtn" type="button" class="btn btn-primary" onclick="isEmpty()">確定</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </form>

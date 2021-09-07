@@ -1,0 +1,95 @@
+﻿.card:hover {
+    box-shadow: 5px 0px 20px grey;
+}
+
+.body {
+    background-image: url("welcome.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.part1 {
+    color: yellow;
+    font-size: 50px;
+    font-family: 'Microsoft YaHei';
+    position: absolute;
+    top: 180px;
+    left: 800px;
+    animation: moveRight;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.part2 {
+    color: yellow;
+    font-size: 50px;
+    font-family: 'Microsoft YaHei';
+    position: absolute;
+    top: 300px;
+    left: 1050px;
+    opacity: 0.0;
+    animation: moveLeft;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+.enter {
+    background-color: #33FFFF;
+    border-color: #DDDDDD;
+    border-width: 3px;
+    border-style: solid;
+    font-size: 30px;
+    font-family: 'Microsoft YaHei';
+    position: absolute;
+    top: 550px;
+    left: 1140px;
+    opacity: 0.0;
+    animation: moveUp;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+}
+
+    .enter :hover {
+        box-shadow: 5px 3px #696969;
+    }
+
+.link {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+@keyframes moveRight {
+    from {
+        opacity: 0.0;
+    }
+
+    to {
+        opacity: 1.0;
+        left: 1070px;
+    }
+}
+
+@keyframes moveLeft {
+    from {
+        opacity: 0.0;
+    }
+
+    to {
+        opacity: 1.0;
+        left: 1030px;
+    }
+}
+
+@keyframes moveUp {
+    from {
+        opacity: 0.0;
+    }
+
+    to {
+        opacity: 1.0;
+        top: 480px;
+    }
+}

@@ -1,0 +1,145 @@
+﻿<h1>簡介</h1>
+<br />
+<div class="row">
+	<div class="col-6">
+		<img src="joyce.jpg" style="position:absolute; top:0px; left:290px;">
+		<ul>
+			<li><p class="font-weight-bold">本名 : 朱主愛</p></li>
+			<li><p class="font-weight-bold">藝名 : 四葉草(Joyce Chu)</p></li>
+			<li><p class="font-weight-bold">生日 : 1997年3月7日</p></li>
+			<li><p class="font-weight-bold">星座 : 雙魚座</p></li>
+			<li><p class="font-weight-bold">代表作 : 好想你</p></li>
+			<br>
+			<br>
+			<li>
+				<p class="font-weight-bold">專輯 : </p>
+				<ol>
+					<li>
+						<div class="card" data-toggle="collapse" data-target="#cd1" style="background-color:#FF88C2">
+							<p class="font-weight-bold" >《四葉草 Joyce Chu 同名EP》 發行日期：2015年11月19日</p>
+						</div>
+						<div id="cd1" class="collapse" style="background-color:#FFB7DD">
+							<ol>
+								<li><p>馬來西亞查某 Malaysia Chabor</p></li>
+								<li><p>好想你 I Miss You</p></li>
+								<li><p>It's A Long Day</p></li>
+							</ol>
+						</div>
+					</li>
+					<li>
+						<div class="card" data-toggle="collapse" data-target="#cd2" style="background-color:#FF88C2">
+							<p class="font-weight-bold" >《在一起 / 冷冷der聖誕節》 發行日期：2016年12月8日</p>
+						</div>
+						<div id="cd2" class="collapse" style="background-color:#FFB7DD">
+							<ol>
+								<li><p>在一起</p></li>
+								<li><p>冷冷der聖誕節</p></li>
+								<li><p>321 GO!</p></li>
+							</ol>
+						</div>
+					</li>
+					<li>
+						<div class="card" data-toggle="collapse" data-target="#cd3" style="background-color:#FF88C2">
+							<p class="font-weight-bold" >《我來自四葉草》 發行日期：2017年10月29日</p>
+						</div>
+						<div id="cd3" class="collapse" style="background-color:#FFB7DD">
+							<ol>
+								<li><p>阿娘喂</p></li>
+								<li><p>外星語</p></li>
+								<li><p>莫名其妙愛上你</p></li>
+								<li><p>小房間</p></li>
+								<li><p>吃定你</p></li>
+								<li><p>快接電話！</p></li>
+								<li><p>新寶島曼波</p></li>
+								<li><p>小清新（ft. 何念茲）</p></li>
+								<li><p>伸出圓手</p></li>
+								<li><p>家裡</p></li>
+							</ol>
+						</div>
+					</li>
+				</ol>
+			</li>
+			<br>
+			<li>
+				<div class="card" data-toggle="collapse" data-target="#songs" style="background-color:#FF88C2">
+					<p class="font-weight-bold">數位單曲 : 18首</p>
+				</div>
+				<div id="songs" class="collapse" style="background-color:#FFB7DD">
+					<ol>
+						<li><p class="font-weight-bold">《因為你是你 - Because You Are You》- 因為你是你</p></li>
+						<li><p class="font-weight-bold">《馬來西亞查某 - Malaysia Chabor》- Malaysia Chabor</p></li>
+						<li><p class="font-weight-bold">《伸出圓手 - You Little Round Hand》- 伸出圓手</p></li>
+						<li><p class="font-weight-bold">《LIKE ME!!》- LIKE ME!!</p></li>
+						<li><p class="font-weight-bold">《謝謝你》- 謝謝你</p></li>
+						<li><p class="font-weight-bold">《家裡 - Sweet Home》- 家裡 Sweet Home</p></li>
+						<li><p class="font-weight-bold">《It's A Long Day》- It's A Long Day</p></li>
+						<li><p class="font-weight-bold">《好想你 - I Miss You》- 好想你</p></li>
+						<li><p class="font-weight-bold">《好想你 2.0 - I Miss You 2.0》- 好想你 2.0</p></li>
+						<li><p class="font-weight-bold">《Em nhớ anh》- Em nhớ anh</p></li>
+						<li><p class="font-weight-bold">《321 Go！》- 321 Go！</p></li>
+						<li><p class="font-weight-bold">《在一起 - Together》- Together</p></li>
+						<li><p class="font-weight-bold">《冷冷der聖誕節！》- 冷冷der聖誕節！</p></li>
+						<li><p class="font-weight-bold">《小清新 - Simple Love》- 小清新</p></li>
+						<li><p class="font-weight-bold">《不老的傳說 - The Never Old Legend》- 不老的傳說</p></li>
+						<li><p class="font-weight-bold">《快接電話! - Answer The Phone!》- 快接電話!</p></li>
+						<li><p class="font-weight-bold">《阿娘喂! - Oh My Mother!》- 阿娘喂!</p></li>
+						<li><p class="font-weight-bold">《莫名其妙愛上你 - Fell In Love With You Ridiculously》 - <br>莫名其妙愛上你</p></li>
+					</ol>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="col-6">
+		<iframe width="525" height="315" src="https://www.youtube.com/embed/fdQgPu3iUYk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<div id="picture" class="carousel slide" data-ride="carousel">
+
+			<ul class="carousel-indicators">
+				<li data-target="#picture" data-slide-to="0" class="active"></li>
+				<li data-target="#picture" data-slide-to="1"></li>
+				<li data-target="#picture" data-slide-to="2"></li>
+				<li data-target="#picture" data-slide-to="3"></li>
+				<li data-target="#picture" data-slide-to="4"></li>
+				<li data-target="#picture" data-slide-to="5"></li>
+				<li data-target="#picture" data-slide-to="6"></li>
+			</ul>
+
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div style="display:inline-block"></div>
+					<img name="item" src="joyce-1.jpg">
+				</div>
+				<div class="carousel-item">
+					<div style="display:inline-block"></div>
+					<img name="item" src="joyce-2.jpg">
+				</div>
+				<div class="carousel-item">
+					<div style="display:inline-block"></div>
+					<img name="item" src="joyce-3.jpg">
+				</div>
+				<div class="carousel-item">
+					<div style="display:inline-block"></div>
+					<img name="item" src="joyce-4.jpg">
+				</div>
+				<div class="carousel-item">
+					<div style="display:inline-block"></div>
+					<img name="item" src="joyce-5.jpg">
+				</div>
+				<div class="carousel-item">
+					<div style="display:inline-block"></div>
+					<img name="item" src="joyce-6.jpg">
+				</div>
+				<div class="carousel-item">
+					<div style="display:inline-block"></div>
+					<img name="item" src="joyce-7.jpg">
+				</div>
+			</div>
+
+			<a class="carousel-control-prev" href="#picture" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+			<a class="carousel-control-next" href="#picture" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+	</div>
+</div>

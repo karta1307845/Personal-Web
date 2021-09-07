@@ -1,0 +1,76 @@
+﻿<h1>我的簡介</h1>
+<br />
+<div class="row">
+	<div class="col-6">
+	<ul>
+		<li><p class="font-weight-bold">姓名 : 蘇信嘉</p></li>
+		<li><p class="font-weight-bold">生日 : 1996年11月26日</p></li>
+		<li><p class="font-weight-bold">星座 : 射手座</p></li>
+		<li><p class="font-weight-bold">血型 : O型</p></li>
+		<li><p class="font-weight-bold">興趣 : 吃美食、聽音樂、玩遊戲、拍影片</p></li>
+		<li><p class="font-weight-bold">專長 : 吃東西、耍廢睡覺、和孤獨當好朋友</p></li>
+		<li><p class="font-weight-bold">學歷 : 目前就讀於高雄師範大學軟體工程與管理學系三年級</p></li>
+		<li>
+			<p class="font-weight-bold">經歷 : </p>
+			<ul>
+				<li><p class="font-weight-bold">在高師大9th軟體系學會擔任小小副會長ing</p></li>
+				<li><p class="font-weight-bold">在F.T.P®樂團擔任BASS手</p></li>
+				<li><p class="font-weight-bold">在105學年擔任系壘球隊副隊長</p></li>
+				<li><p class="font-weight-bold">大一、大二時的班代</p></li>
+				<li><p class="font-weight-bold">新生宿營副召</p></li>
+				<li><p class="font-weight-bold">慈幼營隊生活長</p></li>
+			</ul>
+		</li>
+	</ul>
+	</div>
+	<div class="col-6">
+		<div class="jumbotron">
+			<p class="font-italic">
+				每個人都是一首詩、一首歌、一篇故事，<br />
+				若你願意欣賞我的詩、傾聽我的歌、閱讀我的故事，<br />
+				歡迎你來向我詢問更多有關我的資訊。
+			</p>
+		</div>
+		<div id="picture" class="carousel slide" data-ride="carousel">
+
+			<ul class="carousel-indicators">
+				<li data-target="#picture" data-slide-to="0" class="active"></li>
+				<li data-target="#picture" data-slide-to="1"></li>
+				<li data-target="#picture" data-slide-to="2"></li>
+				<li data-target="#picture" data-slide-to="3"></li>
+				<li data-target="#picture" data-slide-to="4"></li>
+			</ul>
+
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div style="display:inline-block"></div>
+						<img name="item" src="1.jpg">
+					</div>
+					<div class="carousel-item">
+						<div style="display:inline-block"></div>
+							<img name="item" src="2.jpg">
+					</div>
+					<div class="carousel-item">
+						<div style="display:inline-block"></div>
+						<img name="item" src="3.jpg">
+					</div>
+					<div class="carousel-item">
+						<div style="display:inline-block"></div>
+						<img name="item" src="4.jpg">
+					</div>
+					<div class="carousel-item">
+						<div style="display:inline-block"></div>
+						<img name="item" src="5.jpg">
+					</div>
+				</div>
+
+				<a class="carousel-control-prev" href="#picture" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#picture" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+
+		</div>
+	</div>
+</div>
